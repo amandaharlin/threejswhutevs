@@ -1,0 +1,54 @@
+/* SVG styling */
+svg {
+	width: 840px;
+	height: 600px;
+	font-family: helvetica, sans-serif;
+	margin: 0 auto;
+	display:block;
+}
+
+path, line {
+	stroke: #777;
+}
+
+h1 {
+	text-align:center;
+	font-family: 'palatino linotype', palatino, serif;
+color: #5E5E5E;
+font-size: 48px;
+font-variant: small-caps;
+letter-spacing: 10.8pt;
+word-spacing: 11pt;
+line-height: 1.5;
+opacity:1;
+-webkit-transition: all 3.5s; 
+transition: all 3.5s;
+}
+
+h1.hide {
+	opacity: 0;
+}
+
+.navigation {
+	text-align: center;
+}
+
+.navigation a {
+	color: #fff;
+	background-color: #5e5e5e;
+	border-radius: 90px;
+	width:2em;
+	height:2em;
+	font-size: 1.2em;
+	display: inline-block;
+	padding:7px;
+	margin:7px;
+}
+.navigation a:hover {
+	background-color: #5e5fff;
+}
+
+.navigation a i {
+	
+
+}
